@@ -1,0 +1,301 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content {
+  width: 100%;
+}
+
+.content nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  width: 100%;
+  height: 77px;
+  top: 77px;
+  background: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
+}
+
+.content nav .phone span {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.content nav .location {
+  cursor: pointer;
+}
+
+.content nav .socialNetwork a {
+  text-decoration: none;
+  color: white;
+}
+
+.content .logoBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.content .logoBox .logo {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.content .logoBox .links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+.content .logoBox .links ul li {
+  margin: 0 0.5rem;
+}
+
+.content .logoBox .links ul li a {
+  text-decoration: none;
+  color: #737373;
+}
+
+.content .toOrder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.content .toOrder img {
+  width: 100%;
+  position: absolute;
+  z-index: -10;
+}
+
+.content .toOrder .textContent {
+  width: 676px;
+  padding-top: 200px;
+}
+
+.content .toOrder .textContent .text {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content .toOrder .textContent .btnToOrder {
+  background: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+}
+
+.content .whatAreRugs {
+  padding: 0;
+  margin-top: 15rem;
+}
+
+.content .whatAreRugs .fon {
+  position: absolute;
+  width: 100%;
+}
+
+.content .whatAreRugs .eva {
+  text-align: center;
+  font-size: 50px;
+}
+
+.content .whatAreRugs .eva span {
+  background: -webkit-gradient(linear, left top, left bottom, from(#B90160), to(#3D5BF5));
+  background: linear-gradient(180deg, #B90160 0%, #3D5BF5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content .whatAreRugs .container {
+  margin: 0 auto;
+}
+
+.content .whatAreRugs .container p {
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+.content .whatAreRugs .container .card {
+  -webkit-box-shadow: 0px 0px 56px 9px rgba(34, 60, 80, 0.1);
+          box-shadow: 0px 0px 56px 9px rgba(34, 60, 80, 0.1);
+}
+
+.content .reviews {
+  margin-top: 225px;
+  width: 100%;
+  height: 350px;
+  background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .reviews .userReviews {
+  width: 500px;
+  text-align: center;
+  background-color: white;
+  padding: 2rem 3rem 0;
+  border-radius: 15px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: relative;
+}
+
+.content .reviews .userReviews i {
+  background-color: white;
+  position: absolute;
+  font-size: 50px;
+  padding: 1rem;
+  border-radius: 50%;
+  top: -45px;
+  left: 50%;
+  z-index: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.content footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  padding: 1rem;
+}
+
+.content footer .fon {
+  width: 100%;
+  position: absolute;
+}
+
+.content footer .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5rem;
+}
+
+.content footer .block div {
+  margin: 0 1rem;
+}
+
+.modal {
+  display: none;
+  width: 100%;
+  background: rgba(173, 173, 173, 0.5);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+  z-index: 1055;
+}
+
+.modal .modal_dialog {
+  margin: 0 auto;
+  max-width: 40%;
+  margin-top: 200px;
+  padding: 2rem;
+  background-color: white;
+  border-radius: .5rem;
+}
+
+.modal .modal_dialog .modal_content {
+  padding: 2rem;
+  position: relative;
+}
+
+.modal .modal_dialog .modal_content form .modal_close {
+  position: absolute;
+  right: 30px;
+  top: 0;
+  font-size: 30px;
+  color: lightgray;
+}
+
+.modal .modal_dialog .modal_content form .modal_close:hover {
+  cursor: pointer;
+  color: #b4b3b3;
+}
+
+.modal .modal_dialog .modal_content form input {
+  margin: 0.5rem 0;
+}
+
+.modal .modal_dialog .modal_content form textarea {
+  resize: none;
+}
+
+.modal .modal_dialog .modal_content form button {
+  border: 1px solid lightgray;
+  margin-top: 0.5rem;
+}
+
+.modal .modal_dialog .modal_content form button:hover {
+  background: lightgray;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #8f8f8f;
+}
+
+::-webkit-scrollbar-track-piece {
+  border-radius: 10px;
+}
+/*# sourceMappingURL=main.css.map */
